@@ -112,7 +112,7 @@ html {
 }
 
 body {
-    position: relative;
+    position: fixed;
     display: table;
     height: 100%;
     width: 100%;
@@ -140,10 +140,10 @@ img {
 /*OFFER*/
 
 .offer {
-    display: table-row;
     width: 100%;
     font-size: 0;
     text-align: center;
+    padding: 2px;
 }
 
 .offer span {
@@ -417,7 +417,7 @@ img {
 .footer a {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 1;
     text-align: center;
     color: #5D6C7E;
